@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
         resumeSection.style.display = "block";
         loadFromLocalStorage();
     });
+    
     //Next, Back, and Preview buttons
     const formSteps = document.querySelectorAll(".form-step");
     const nextBtns = document.querySelectorAll(".next-btn");
