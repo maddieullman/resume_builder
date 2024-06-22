@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe4e1;
+}
+
+header {
+    background-color: #ffb6c1;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center; 
+}
+
+#homepage-section, #resume-section, #preview-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    margin: auto; 
+    max-width: 800px; 
+}
+
+.form-step {
+    display: none;
+}
+
+.form-step.active {
+    display: block;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center; 
+}
+
+form input, form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #ffb6c1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff69b4;
+}
+
+#resume-preview {
+    text-align: center; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+#resume-preview h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#resume-preview p {
+    margin-bottom: 5px;
+}
+
+#resume-preview h2 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+#resume-preview ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    text-align: center; 
+}
