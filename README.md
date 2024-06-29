@@ -18,7 +18,7 @@ To get started with the project, follow these steps:
       ```
    The application will run with the front-end on http://localhost:3000 and the back-end on http://localhost:3001.
 
-3. API Documentation - Endpoints
+# API Documentation - Endpoints
    <br>
    Create a Resume
    <br>
