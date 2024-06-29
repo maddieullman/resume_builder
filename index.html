@@ -14,21 +14,19 @@
         <section id="homepage-section">
             <button id="start-btn">Start</button>
         </section>
-        <!-- Resume Building Section -->
         <section id="resume-section" style="display: none;">
             <h2>Your Resume</h2>
             <form id="resume-form">
-                <!-- Name and Address -->
                 <div class="form-step" id="step-1">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" autocomplete="name" required>
                     <label for="address">Address:</label>
                     <input type="text" id="address" name="address" autocomplete="address" required>
                     <button type="button" class="preview-btn">Preview</button>
+                    <button type="button" class="delete-btn">Delete Resume</button>
                     <button type="button" class="next-btn">Next</button>
                 </div>
                 
-                <!-- Email and Phone -->
                 <div class="form-step" id="step-2">
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" autocomplete="email" required>
@@ -36,10 +34,10 @@
                     <input type="tel" id="phone" name="phone" autocomplete="tel" required>
                     <button type="button" class="back-btn">Back</button>
                     <button type="button" class="preview-btn">Preview</button>
+                    <button type="button" class="delete-btn">Delete Resume</button>
                     <button type="button" class="next-btn">Next</button>
                 </div>
 
-                <!-- College, Major, GPA, and Graduation Date-->
                 <div class="form-step" id="step-3">
                     <label for="college">College:</label><br>
                     <input type="text" id="college" name="college" placeholder="College" autocomplete="organization" required>
@@ -51,46 +49,41 @@
                     <input type="text" id="grad-date" name="grad-date" placeholder="Graduation Date" autocomplete="off">
                     <button type="button" class="back-btn">Back</button>
                     <button type="button" class="preview-btn">Preview</button>
+                    <button type="button" class="delete-btn">Delete Resume</button>
                     <button type="button" class="next-btn">Next</button>
                 </div>
 
-                <!-- Experience Section -->
                 <div class="form-step" id="step-4">
                     <label for="experience">Experience:</label><br>
                     <textarea id="experience" name="experience" rows="4" cols="50" placeholder="List your work experience here..." autocomplete="off"></textarea>
                     <button type="button" class="back-btn">Back</button>
                     <button type="button" class="preview-btn">Preview</button>
+                    <button type="button" class="delete-btn">Delete Resume</button>
                     <button type="button" class="next-btn">Next</button>
                 </div>
 
-                <!-- Skills Section-->
                 <div class="form-step" id="step-5">
                     <label for="skills">Skills:</label><br>
                     <textarea id="skills" name="skills" rows="4" cols="50" placeholder="List your skills here..." autocomplete="off"></textarea>
                     <button type="button" class="back-btn">Back</button>
                     <button type="button" class="preview-btn">Preview</button>
+                    <button type="button" class="delete-btn">Delete Resume</button>
                     <button type="button" class="next-btn">Next</button>
                 </div>
 
-                <!-- Projects Section-->
                 <div class="form-step" id="step-6">
                     <label for="projects">Projects:</label><br>
                     <textarea id="projects" name="projects" rows="4" cols="50" placeholder="List your projects here..." autocomplete="off"></textarea>
                     <button type="button" class="back-btn">Back</button>
+                    <button type="button" class="delete-btn">Delete Resume</button>
                     <button type="button" class="preview-btn">Preview</button>
-                    <button type="submit">Save Resume</button>
+                    <button type="submit" class="save-btn">Save Resume</button>
                 </div>
             </form>
         </section>
-        
-        <!-- Preview Section -->
         <section id="preview-section" style="display: none;">
             <h2>Preview</h2>
-            <div id="resume-preview">
-                <!-- Preview content will be dynamically added here -->
-            </div>
-            <!-- Button for downlading as PDF; still in progress -->
-            <button id="download-pdf-btn">Download PDF</button>
+            <div id="resume-preview"></div>
         </section>
     </main>
     <script src="app.js"></script>
